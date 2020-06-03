@@ -1,0 +1,29 @@
+cdn - content delivery network. Deliver/share the content 
+
+1. image link with external site. Always choose free site for image to avoid copywrite issue
+2. image "name" and "alt" help in SEO. aslo help in accesibility like for blind person
+3. image resoulation should be as small as possible
+4. sizing image using width and height attribute. measurement unit is px=pixel, pt= point, %=percent, 1em=16pixel, rem. Default is pixel. Mean if i set only value without unit, it will take pixel automatically. try only width attribute to control image size.
+5. Attribute cannot be set in all tag/element. like src cannot be use in <h1> tag.
+6. Boolean Attribute <input type="text/email/submit/checkbox" disable/checked>. Used to collect user input as true or false.
+	Various boolean attribute: disable, readonly, checked, enable, selected, autoplay
+7. Link up a text. <a href="http://google.com"> Click Here to go to google</a>
+8. Code commenting. <!-- some note, which only show in code to describe about code -->
+9. CSS: Cascading style Sheet. Always active last properties if multiple set
+	a. inline. example: <div style="width: 100px">
+	b. internal. set on header section. Example: <style> .some-style{width:100px;} </style>
+	c. external. write css code in different file and link up to targeted html. should set on header section. <link rel="stylesheet" href="style.css">
+
+10. CSS Syntax:
+	Selector{		//the HTML address which need to style
+		properties:value;		//Properties need to change : Expected value, which need to appear
+		properties-2: value;
+	}
+11. Selector type: general(div, body, section), id(userdefine unique id, single use), class (user define class, multiple use)
+
+
+
+What is CSS?
+CSS is Cascading Style Sheet, which used to style or layout the web pages or presenting content in own way. It can use to style font, color, background, sapcing, layout. annimation and many more. It is a language for styling document and determining how it is presented. 
+Why called Cascading?
+Its called cascading because it determine the rule that which style will apppear if more than one rule matches.
